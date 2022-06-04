@@ -58,3 +58,28 @@ checking the history of commands in windows os
 ``` conda prompt
 doskey /History
 ```
+
+tox to run the test cases
+``` conda prompt
+tox
+```
+
+tox to run the test cases with rebuild env
+``` conda prompt
+tox -r
+```
+
+pytest to run the test cases
+``` conda prompt
+pytest -v
+```
+
+setup commands -
+``` conda prompt
+pip install -e .
+```
+
+build your own package commands -
+``` conda prompt
+python setup.py sdist bdist_wheel
+```
